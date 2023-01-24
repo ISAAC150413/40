@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+  <script src="libraries/matter.js"></script>
+
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+   <script src="js/game.js"></script>
+   <script src="js/player.js"/></script>
+
+   <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Add database config here below-->
+  <script>
+// TODO: Add SDKs for Firebase products that you want to use
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyD65FzYyKCnNTY8GJZG3aCRKbFH0lf6AIo",
+  authDomain: "frutas-9653b.firebaseapp.com",
+  databaseURL: "https://frutas-9653b-default-rtdb.firebaseio.com",
+  projectId: "frutas-9653b",
+  storageBucket: "frutas-9653b.appspot.com",
+  messagingSenderId: "1027814847045",
+  appId: "1:1027814847045:web:0ed83145b10b4f4486e92c"
+};
+      // firebase.initializeApp(firebaseConfig);
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+</body></html>
